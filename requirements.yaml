@@ -1,0 +1,9 @@
+- name: Roles Nginx
+  hosts: all
+  connection: local
+
+  roles:
+    - name: geerlingguy.docker
+    - name: christiangda.awscli
+    - name: christiangda.awscli_configure
+    - name: diodonfrost.terraform
